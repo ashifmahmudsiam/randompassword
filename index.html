@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" href="random.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Stylish&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Random Password</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="head">Generate a<br /><span>Random Password</span></h1>
+      <div class="input-container">
+        <input type="text" class="password-box" placeholder="Password" />
+        <img src="copy.png" class="copy-img" />
+      </div>
+      <button
+        onclick=" genaratePassword()"
+        class="password-genatate"
+        type="submit"
+      >
+        <i class="fa-solid fa-unlock-keyhole"></i>Generate Password
+      </button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
